@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: var#434455;
+    color: #434455
     background-color: #FFF;
 }
 a {
@@ -16,9 +16,9 @@ ul {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    line-height: 1.17
 }
 
 .logo-item {
@@ -35,16 +35,24 @@ ul {
 
 .menu:hover,
 .menu:active {
-color: #4D5AE5;
+color:#404bbf;
 } 
+
+.nav-header {
+font-style: normal;
+}
 
 .address {
         color:#434455;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
-            letter-spacing: 0.32px;
-            font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+}
+
+.address:hover,
+.address:active {
+color: #404bbf;
 }
 
 .main-header {
@@ -55,13 +63,13 @@ color: #4D5AE5;
     line-height: 60px;
     letter-spacing: 1.12px;
     text-transform: capitalize;
+    line-height: 1.07;
 }
 
 .first-section {
     background-color:#2E2F42;
     width: 1440px;
     height: 600px;
-    flex-shrink: 0;
     text-align: center;
 }
 
@@ -73,11 +81,13 @@ color: #4D5AE5;
     letter-spacing: 0.64px;
     background-color: #4D5AE5;
     text-transform: capitalize; 
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
-.button:hover,
+.button:hover, 
 .button:active {
-    color: #4D5AE5;
+    background-color: #404BBF
 }
 
 .head-features {
@@ -96,8 +106,20 @@ line-height: 24px;
 letter-spacing: 0.32px
 }
 
-.second-section {
+.third-section {
     background-color: #F4F4FD;
+}
+
+.section-header {
+    color: #2E2F42;
+    text-align:center;
+    font-family:Roboto;
+    font-size: 36px;
+    font-weight:700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    line-height: 1.11
 }
 
 .team-header { 
@@ -110,7 +132,7 @@ letter-spacing: 0.32px
 }
 
 .job-title {
-    #434455;
+    color: #434455;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -122,10 +144,10 @@ letter-spacing: 0.32px
 background-color: #FFF;
 }
 
-.head-portfl {
-    #2E2F42;
+.head-portfolio {
+    color: #2E2F42;
     text-align: center;
-    font-size: 36px;
+    font-size: 1.11;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -140,7 +162,7 @@ background-color: #FFF;
     letter-spacing: 0.4px;
 }
 
-.txt {
+.portfolio-text {
     #434455;
     font-size: 16px;
     font-weight: 400;
@@ -162,6 +184,4 @@ background-color: #FFF;
 
 .logo-item-footer {
     color: #F4F4FD;
-
 }
-
