@@ -33,8 +33,8 @@ ul {
         letter-spacing: 0.32px;
 }
 
-.menu:hover,
-.menu:active {
+.menu:hover, 
+.menu:focus {
 color:#404bbf;
 } 
 
@@ -51,8 +51,8 @@ font-style: normal;
 }
 
 .address:hover,
-.address:active {
-color: #404bbf;
+.address:focus {
+color:#404bbf;
 }
 
 .main-header {
@@ -84,8 +84,8 @@ color: #404bbf;
 }
 
 .button:hover, 
-.button:active {
-    background-color: #404BBF
+.button:focus {
+    background-color:#404BBF;
 }
 
 .head-features {
