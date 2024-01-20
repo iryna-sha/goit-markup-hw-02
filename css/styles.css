@@ -88,6 +88,10 @@ color:#404bbf;
     background-color:#404BBF;
 }
 
+.section-header {
+    text-align: center;
+}
+
 .head-features {
     color:#2E2F42;
     font-size: 20px;
